@@ -4,5 +4,22 @@
 
 body {
     margin: 0;
+    font-family: Inter, sans-serif;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #21222A;
+    align-items: center;
+}
+
+.nav-img {
+    padding: 40px;
+}
+
+.nav-h1 {
+    color: #DEEBF8;
+    padding: 40px;
+    font-size: 22px;
+}
