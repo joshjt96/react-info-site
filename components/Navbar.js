@@ -4,7 +4,10 @@ import ReactDOM from "react-dom"
 
 function Navbar() {
     return (
-        <h1>Navbar goes here</h1>
+        <nav className="navbar">
+            <img className="nav-img" src="images/react-icon-small.png"></img>
+            <h1 className="nav-h1">React Course - Project 1</h1>
+        </nav>
     )
 }
 
